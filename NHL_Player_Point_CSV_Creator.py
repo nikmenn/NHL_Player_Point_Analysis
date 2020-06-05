@@ -43,7 +43,7 @@ def point_counter(start, end, team_name, season_year, player_num, file_name):
                 # Check if the player played in said game by using his number(player_num)
                 if player_num in home_players:
                     # Points earned in that game is within the home_players dictionary
-                    points = home_players[19]['p']
+                    points = home_players[player_num]['p']
                     # Setting the vs_team variable to the opponent
                     vs_team = game.matchup['away']
                     home_or_away = 'Home'
