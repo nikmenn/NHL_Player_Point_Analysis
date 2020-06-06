@@ -5,7 +5,7 @@ import csv
 
 def point_counter(start, end, team_name, season_year, player_num, file_name):
     '''
-    This function creates a csv of a player's game log from the nhlcrapi.
+    This function creates a csv of a player's game log from the nhlscrapi.
     start - enter the number of the game you want to start getting data from
     end - enter the number of the game you want to end on
     The start/end number correspond to specific game numbers. So for example if you want
